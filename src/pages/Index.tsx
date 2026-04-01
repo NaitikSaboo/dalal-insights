@@ -320,6 +320,10 @@ export default function Index() {
             Not SEBI registered. For informational purposes only. Not investment advice.
           </p>
         </div>
+        <div className="flex gap-6 text-xs text-gray-400">
+  <a href="/privacy-policy" className="hover:text-gray-600">Privacy Policy</a>
+  <a href="/about" className="hover:text-gray-600">About</a>
+</div>
       </footer>
     </div>
   );
